@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acceuil</title>
+    <link rel="stylesheet" href="/pt.css">
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="/azes.png" alt="">
+        <div class="nav" id="navi">
+            <button onclick="window.location.href='#' ;">Home</button>
+            <button onclick="window.location.href='#news' ;">News</button>
+            <button onclick="window.location.href='#best' ;">Best Teams</button>
+
+            <button onclick="window.location.href='#shop' ;">shop</button>
+            <button id="login" onclick="window.location.href='#' ;">login</button>
+        </div>
+
+    </div>
+    <div class="pop">
+
+        <div class="conter">
+            <span class="ic "><ion-icon name="close-outline"></ion-icon></span>
+
+            <div class="box">
+                <h2>login</h2>
+                <form action="" method="post">
+
+                    <div class="inpt">
+
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+
+                        <input class="btn" type="email" required placeholder="Email">
+
+                    </div>
+                    <div class="inpt">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+
+                        <input type="password" required placeholder="Password" class="btn">
+
+                    </div>
+                    <div class="remmb">
+                        <input type="checkbox" name="" id="check">
+                        <label for="">Remembre me </label> <a href="#"> Forgot Password ?</a>
+
+                    </div>
+                    <button type="submit" class="bt">LOGIN</button>
+                    <div class="login-reg">
+                        <h3>dont have an account <a class="lnk">Create account.</a></h3>
+
+
+                    </div>
+
+
+
+                </form>
+
+            </div>
+
+            <div class="regst">
+                <h2>Registration</h2>
+                <form action="/auth/register" method="POST">
+                {{#if message}}
+                   <h4 class="alert alert-danger "> {{message}}</h4>
+                {{/if}}
+                    <div class="inpt">
+
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+
+                        <input class="btn" name="Username" type="text" required placeholder="Username">
+
+                    </div>
+                    <div class="inpt">
+
+                        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+
+                        <input class="btn" name="email" type="email" required placeholder="Email">
+
+                    </div>
+                    <div class="inpt">
+                        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+
+                        <input type="password" name="password" required placeholder="Password" class="btn">
+
+                    </div>
+                    <div class="condition">
+                        <input type="checkbox" name="" id="check">
+                        <label for=""> I agree on the condition</label>
+
+                    </div>
+                    <button type="submit" class="bt" name="submit">Rgister</button>
+                    <div class="login-reg">
+                        <h3>-have an account <a class="lgo">LOGIN</a></h3>
+
+
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="home">
+            <span>
+                <h3>"Le tournoi du pouvoir, dans lequel tous les univers étaient impliqués, prit fin et les mois
+                    passèrent dans l'Univers 7.
+                    Une perturbation spatio-temporelle eut lieu subitement, et les guerriers de chaque espace-temps
+                    commencèrent à se
+                    battre.
+                    C'est alors qu'un jeune Saiyan apparut devant Goku, qui était en plein combat contre un ennemi
+                    puissant.
+                    Ce jeune homme portait une tenue de combat jamais vue auparavant..."
+                    A l'aide d'infinity de personnage.... <b>VOUS ETEZ LE BIENVENU</b></h3>
+            </span>
+
+
+
+
+
+
+
+
+
+
+            <span><img src="/unnamed.webp" alt="">
+            </span>
+
+
+        </div>
+        <div id="news"></div>
+        <div class="news">
+            <h3>"NEW CARACTER VEGITO BLUE SS"</h3>
+            <p>The Dragon Ball Legends 5th Anniversary is coming to a close!
+                The final big character is Super Saiyan God SS Vegito, who joins the fight in ULTRA rarity!
+
+                This character's Ultimate Arts debuts the brand-new Arts Action feature. If you pull it off
+                successfully, you can do
+                even more devastating damage!
+                This Vegito has amazing attack, defense and Uniques, so don't let your chance to acquire this character
+                pass you by!</p>
+            <div class="switch">
+                <span id="gch"><ion-icon name="chevron-back-outline"></ion-icon></span>
+
+                <iframe id="nn" width="741" height="480" src="https://www.youtube.com/embed/VaINI7tm1pE?"
+                    title="DRAGON BALL LEGENDS ULTRA Super Saiyan God SS Vegito Is Here!" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span id="droi"><ion-icon name="chevron-forward-outline"></ion-icon></span>
+            </div>
+            <div class="imate">
+                <img src="/téléchargement (1).jpg" alt="">
+                <img src="/téléchargement (2).jpg" alt="">
+                <img src="/téléchargement (3).jpg" alt="">
+            </div>
+            <div id="best"></div>
+
+
+        </div>
+
+        <div class="Best">
+            <h2>Teams Of The year</h2>
+            <h3>1-Fusion Warriors</h3>
+            <p>Super Saiyan Gohan (Yellow, SP) – Not overpowering in any way, but helps with the offense, defense, and
+                support equally.
+                He has a wide range of uses and is a valuable member of any team due to his flexible abilities.
+                <br>Super Gogeta (Blue, UL) – One of the best damage dealers once a team member falls. Also, he is the
+                only fighter who can
+                use the Ultimate Arts card twice.
+                <br>Super Saiyan 4 Gogeta (Green, SP) – One of the hardest-hitting characters ever with abilities that
+                counter elemental
+                disadvantages.
+                <br>Super Vegito (Yellow, UL) – The offensive stats of this character are enough to eliminate any
+                opponent, literally.
+            </p>
+            <img class="image" src="/dragon-ball-legends-best-team-fusion-warriors-1024x576.avif" alt="">
+            <h3>2-Lineage of Evil</h3>
+            <p>Android 17 and Android 18 (Red, SP) – They can make the most of the overpowered Type Switch mechanic and
+                are two of the
+                best offensive characters in the game.
+                <br>Golden Frieza (Green, SP) – One of the best damage dealers in the entire game.
+                <br>Final Form Cooler (Red, SP) – Do not expect significant defense but the unique offensive abilities
+                are enough to
+                compensate for it.
+                <br>Mecha Frieza (Purple, SP) – Easily an S-tier unit with excellent damage buffs.
+            </p>
+            <img class="image" src="/dragon-ball-legends-best-team-lineage-of-evil-1024x576.avif" alt="">
+            <h3>3-GOD KI</h3>
+            <p>Super Saiyan Gohan (Yellow, SP) – Not overpowering in any way, but helps with the offense, defense, and
+                support equally.
+                He has a wide range of uses and is a valuable member of any team due to his flexible abilities.
+                <br>Super Gogeta (Blue, UL) – One of the best damage dealers once a team member falls. Also, he is the
+                only fighter who can
+                use the Ultimate Arts card twice.
+                <br>Super Saiyan 4 Gogeta (Green, SP) – One of the hardest-hitting characters ever with abilities that
+                counter elemental
+                disadvantages.
+                <br>Super Vegito (Yellow, UL) – The offensive stats of this character are enough to eliminate any
+                opponent, literally.
+            </p>
+            <img class="image" src="/dragon-ball-legends-best-teams-god-ki-1024x576.avif" alt="">
+            <h3>4-Powerful Opponents</h3>
+            <p>Perfect Cell (Purple, SP) – Benefits greatly from the anti-Hybrid Saiyan and anti-revival abilities.
+                <br>Final Form Frieza: Full Power (Blue, SP) – From explosive burst damage to Endurance abilities, he is
+                the perfect package
+                that won’t disappoint you in any aspect.
+                <br>Final Form Cooler (Blue, SP)
+                <br>Hero Tapion (SP, Yellow) – Not the best for damage but compensates for it with eminent support
+                abilities.
+            </p>
+            <img class="image" src="/dragon-ball-legends-best-teams-powerful-opponents-1024x576.avif" alt="">
+            <div id="shop"></div>
+
+        </div>
+        <div class="shop">
+            <h1 style="text-align: center;margin: 20px ;font-size: 60px;">shop</h1>
+            <div class="items">
+                <span><img src="/téléchargement.jpg" alt="">
+
+                    <h2>100cc<br>1.000 DA</h2>
+                </span>
+                <span>
+                    <img src="/téléchargement.jpg" alt="">
+                    <h2>500cc <br> 3.000 DA</h2>
+                </span>
+                <span><img src="/téléchargement.jpg" alt="">
+                    <h2> 10.000cc <br> 5.000 DA</h2>
+                </span>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+    <div class="footer">
+
+        <p> ! with the help of my fabuliuos camarade Nazim !<br> check or links:</p>
+        <a href="">nazim </a><br>
+
+        <a href=""> the chikor me</a>
+    </div>
+    <script src="/tp.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
